@@ -1,0 +1,153 @@
+{
+  "profil": [
+    {
+      "id": "siswa-1",
+      "nama": "Aulia Putri",
+      "kelas": "XI IPA 2",
+      "foto": "https://i.pravatar.cc/200?img=32",
+      "statusMasuk": true
+    }
+  ],
+  "mapel": [
+    {
+      "id": "mapel-1",
+      "namaMapel": "Matematika"
+    },
+    {
+      "id": "mapel-2",
+      "namaMapel": "Bahasa Indonesia"
+    },
+    {
+      "id": "mapel-3",
+      "namaMapel": "IPA"
+    },
+    {
+      "id": "mapel-4",
+      "namaMapel": "IPS"
+    },
+    {
+      "id": "mapel-5",
+      "namaMapel": "Bahasa Inggris"
+    },
+    {
+      "id": "mapel-6",
+      "namaMapel": "Seni Budaya"
+    }
+  ],
+  "tugas": [
+    {
+      "id": "tugas-1",
+      "mapelId": "mapel-1",
+      "judul": "Latihan Soal Matriks & Determinan",
+      "deskripsi": "Kerjakan 10 soal matriks halaman 42-43 buku paket. Foto jawaban tulis tangan.",
+      "tenggat": "2026-09-19T08:00:00.000Z",
+      "selesai": false,
+      "prioritas": "tinggi"
+    },
+    {
+      "id": "tugas-2",
+      "mapelId": "mapel-3",
+      "judul": "Laporan Praktikum Fotosintesis",
+      "deskripsi": "Buat laporan praktikum fotosintesis daun hydrilla. Upload PDF max 5MB.",
+      "tenggat": "2026-09-18T23:59:59.000Z",
+      "selesai": false,
+      "prioritas": "tinggi"
+    },
+    {
+      "id": "tugas-3",
+      "mapelId": "mapel-2",
+      "judul": "Resensi Novel Laskar Pelangi",
+      "deskripsi": "Resensi 500 kata, struktur orientasi - sinopsis - analisis - evaluasi.",
+      "tenggat": "2026-09-19T23:59:59.000Z",
+      "selesai": false,
+      "prioritas": "sedang"
+    },
+    {
+      "id": "tugas-4",
+      "mapelId": "mapel-5",
+      "judul": "Video Speaking: My Daily Routine",
+      "deskripsi": "Rekam video 1-2 menit, upload link Drive/YouTube unlisted.",
+      "tenggat": "2026-09-20T23:59:59.000Z",
+      "selesai": true,
+      "prioritas": "sedang"
+    },
+    {
+      "id": "tugas-5",
+      "mapelId": "mapel-4",
+      "judul": "Peta Konsep Perdagangan Internasional",
+      "deskripsi": "Buat peta konsep di kertas A3, foto dengan jelas.",
+      "tenggat": "2026-09-21T23:59:59.000Z",
+      "selesai": false,
+      "prioritas": "rendah"
+    },
+    {
+      "id": "tugas-6",
+      "mapelId": "mapel-6",
+      "judul": "Poster Digital Hari Batik Nasional",
+      "deskripsi": "Desain poster A3, upload PNG/JPG. Kriteria: orisinal & tema batik.",
+      "tenggat": "2026-09-17T23:59:59.000Z",
+      "selesai": false,
+      "prioritas": "tinggi"
+    },
+    {
+      "id": "tugas-7",
+      "mapelId": "mapel-3",
+      "judul": "Rangkuman Sistem Reproduksi",
+      "deskripsi": "Rangkuman bab 7, tulis tangan rapi 2 halaman.",
+      "tenggat": "2026-09-23T23:59:59.000Z",
+      "selesai": false,
+      "prioritas": "rendah"
+    },
+    {
+      "id": "tugas-8",
+      "mapelId": "mapel-1",
+      "judul": "Project Kelompok: Statistika Data Kelas",
+      "deskripsi": "Kumpulkan data tinggi badan kelas, buat diagram & analisis.",
+      "tenggat": "2026-09-25T23:59:59.000Z",
+      "selesai": false,
+      "prioritas": "sedang"
+    }
+  ],
+  "materi": [
+    {
+      "id": "materi-1",
+      "mapelId": "mapel-1",
+      "judul": "Matriks & Operasi",
+      "tautan": "#",
+      "sudahDibaca": false
+    },
+    {
+      "id": "materi-2",
+      "mapelId": "mapel-3",
+      "judul": "Fotosintesis & Respirasi",
+      "tautan": "#",
+      "sudahDibaca": true
+    },
+    {
+      "id": "materi-3",
+      "mapelId": "mapel-2",
+      "judul": "Teks Resensi Struktur & Contoh",
+      "tautan": "#",
+      "sudahDibaca": false
+    }
+  ],
+  "pengumpulan": [],
+  "nilai": [],
+  "game": [
+    {
+      "id": "game-1",
+      "nama": "Flappy Bird"
+    }
+  ],
+  "skor_game": [
+    {
+      "id": "sg-1",
+      "gameId": "game-1",
+      "profilId": "siswa-1",
+      "skorTertinggi": 0,
+      "totalPoin": 0,
+      "updatedAt": "2026-09-18T09:33:19.593771"
+    }
+  ],
+  "tiket": []
+}
