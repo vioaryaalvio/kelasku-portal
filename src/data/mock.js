@@ -12,7 +12,7 @@ export const mockMapel = [
 
 export const mockProfile = {
   id: 'siswa-1',
-  nama: 'Aulia Putri',
+  nama: 'Axell',
   kelas: 'XI IPA 2',
   foto: 'https://i.pravatar.cc/200?img=32',
   statusMasuk: true,

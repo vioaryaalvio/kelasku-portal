@@ -46,7 +46,7 @@
 **File `db.json` (root, committed):**
 ```json
 {
-  "profil": [{ "id": "siswa-1", "nama": "Aulia Putri", "kelas": "XI IPA 2", "foto": "https://i.pravatar.cc/200?img=32", "statusMasuk": true }],
+  "profil": [{ "id": "siswa-1", "nama": "Axell", "kelas": "XI IPA 2", "foto": "https://i.pravatar.cc/200?img=32", "statusMasuk": true }],
   "mapel": [{ "id": "mapel-1", "namaMapel": "Matematika" }, { "id": "mapel-2", "namaMapel": "Bahasa Indonesia" }, ... 6 ],
   "tugas": [{ "id": "tugas-1", "mapelId": "mapel-1", "judul": "Latihan Soal Matriks", "deskripsi": "...", "tenggat": "2026-09-19T23:59:59.000Z", "selesai": false, "prioritas": "tinggi" }, ... 8 ],
   "materi": [{ "id": "materi-1", "mapelId": "mapel-1", "judul": "Matriks & Operasi", "tautan": "#", "sudahDibaca": false }, ... 3 ],

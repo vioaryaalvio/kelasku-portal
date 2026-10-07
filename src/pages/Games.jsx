@@ -132,7 +132,7 @@ export default function Games() {
                 <div key={r.id} className={`flex items-center gap-3 rounded-xl border p-3 ${i === 0 ? 'bg-[#FFFBEB] border-[#FDE68A]' : 'bg-white border-[#E2E8F0]'}`}>
                   <span className={`h-7 w-7 rounded-lg grid place-items-center text-[11px] font-bold ${i === 0 ? 'bg-[#D97706] text-white' : i === 1 ? 'bg-[#64748B] text-white' : 'bg-[#F8FAFC] border border-[#E2E8F0] text-[#475569]'}`}>{i + 1}</span>
                   <div className="flex-1 min-w-0">
-                    <div className="text-[12px] font-medium text-[#0F172A] truncate">{r.profilId === 'siswa-1' ? 'Kamu — Aulia' : r.profilId} {r.profilId === 'siswa-1' && <span className="text-[10px] bg-[#1E40AF] text-white px-1.5 py-0.5 rounded-md ml-1">kamu</span>}</div>
+                    <div className="text-[12px] font-medium text-[#0F172A] truncate">{r.profilId === 'siswa-1' ? 'Kamu — Axell' : r.profilId} {r.profilId === 'siswa-1' && <span className="text-[10px] bg-[#1E40AF] text-white px-1.5 py-0.5 rounded-md ml-1">kamu</span>}</div>
                     <div className="text-[11px] text-[#64748B]">High {r.skorTertinggi} • Poin {r.totalPoin}</div>
                   </div>
                   {i === 0 && <Medal size={14} className="text-[#D97706]" />}

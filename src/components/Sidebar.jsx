@@ -58,9 +58,9 @@ export default function Sidebar({ onClose }) {
 
       <div className="p-4 border-t border-[#E2E8F0]">
         <div className="flex items-center gap-3">
-          <img src="https://i.pravatar.cc/200?img=32" alt="Aulia Putri" className="h-9 w-9 rounded-full object-cover" />
+          <img src="https://i.pravatar.cc/200?img=32" alt="Axell" className="h-9 w-9 rounded-full object-cover" />
           <div className="min-w-0 flex-1">
-            <div className="text-[13px] font-semibold leading-none text-[#0F172A] truncate">Aulia Putri</div>
+            <div className="text-[13px] font-semibold leading-none text-[#0F172A] truncate">Axell</div>
             <div className="text-[11px] text-[#475569]">XI IPA 2</div>
           </div>
           <button aria-label="Keluar" className="h-8 w-8 rounded-lg hover:bg-[#F8FAFC] border border-transparent hover:border-[#E2E8F0] grid place-items-center text-[#64748b] transition">
