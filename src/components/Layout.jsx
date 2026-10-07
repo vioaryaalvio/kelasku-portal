@@ -56,7 +56,7 @@ export default function Layout() {
               </button>
 
               <div className="hidden sm:flex items-center gap-3 pl-3 border-l border-[#E2E8F0]">
-                <img src="https://i.pravatar.cc/200?img=32" className="h-8 w-8 rounded-full object-cover" alt="Avatar Axell" />
+                <img src="https://i.pravatar.cc/200?img=12" className="h-8 w-8 rounded-full object-cover" alt="Avatar Axell" />
                 <div className="hidden lg:block text-left leading-tight">
                   <div className="text-[13px] font-semibold text-[#0F172A]">Axell</div>
                   <div className="text-[11px] text-[#475569]">XI IPA 2</div>

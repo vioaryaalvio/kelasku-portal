@@ -58,7 +58,7 @@ export default function Sidebar({ onClose }) {
 
       <div className="p-4 border-t border-[#E2E8F0]">
         <div className="flex items-center gap-3">
-          <img src="https://i.pravatar.cc/200?img=32" alt="Axell" className="h-9 w-9 rounded-full object-cover" />
+          <img src="https://i.pravatar.cc/200?img=12" alt="Axell" className="h-9 w-9 rounded-full object-cover" />
           <div className="min-w-0 flex-1">
             <div className="text-[13px] font-semibold leading-none text-[#0F172A] truncate">Axell</div>
             <div className="text-[11px] text-[#475569]">XI IPA 2</div>

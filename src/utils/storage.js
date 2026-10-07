@@ -34,6 +34,10 @@ export function ensureInitialData({ mapel, tugas, materi, profile }) {
   if (!getStorage(KEYS.NILAI)) setStorage(KEYS.NILAI, [])
   if (!getStorage(KEYS.SKOR_GAME)) setStorage(KEYS.SKOR_GAME, [])
   if (!getStorage(KEYS.TIKET)) setStorage(KEYS.TIKET, [])
+  // Migrasi satu-kali: profil lama masih tersimpan di browser pengguna,
+  // timpa dengan profil baru agar nama & foto terbaru langsung tampil.
+  const storedProfile = getStorage(KEYS.PROFILE)
+  if (storedProfile?.nama === 'Aulia Putri' && profile) setStorage(KEYS.PROFILE, profile)
 }
 
 export { KEYS }
